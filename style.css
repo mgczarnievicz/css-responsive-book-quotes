@@ -10,10 +10,13 @@ body {
     min-height: 100vh;
     text-align: center;
     background-color: #f2ffe9;
+    padding: 10px;
 }
+
 #quotes-container {
-    text-align: center;
     width: 90%;
+    margin: 0 5%;
+    text-align: center;
     border-radius: 12px;
 }
 .quotes {
