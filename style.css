@@ -54,6 +54,25 @@ h2 {
 
 @media screen and (min-width: 800px) {
     body {
+        background-color: #655d8a;
+    }
+    .quotes {
+        width: 350px;
+        min-height: 150px;
+        display: inline-block;
+        border: 5px dotted #d885a3;
+        background-color: #7897ab;
+    }
+    h2 {
+        color: #fdceb9;
+    }
+    h1 {
+        color: #d885a3;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
         background-color: #ff6363;
     }
     .quotes {
@@ -76,9 +95,6 @@ h2 {
         background-color: #060930;
     }
     .quotes {
-        width: 350px;
-        min-height: 150px;
-        display: inline-block;
         border: 5px inset #595b83;
         background-color: #333456;
     }
@@ -95,9 +111,6 @@ h2 {
         background-color: #222222;
     }
     .quotes {
-        width: 350px;
-        min-height: 150px;
-        display: inline-block;
         border: 5px #045757;
         border-style: dashed solid;
         background-color: #044343;
