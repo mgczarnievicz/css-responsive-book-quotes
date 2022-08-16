@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Indie Flower", cursive;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f2ffe9;
+}
+#quotes-container {
+    text-align: center;
+    width: 90%;
+    border-radius: 12px;
+}
+.quotes {
+    width: 90%;
+    border: 3px solid #557c55;
+    border-radius: 12px;
+    margin: 10px 15px;
+    margin-right: 0px;
+    background-color: #db6b97;
+    overflow: hidden;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+    color: #557c55;
+    font-family: "Monoton", cursive;
+    font-size: 42px;
+}
+h2,
+p {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+p {
+    color: rgb(209, 209, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+h2 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: #ff6363;
+    }
+    .quotes {
+        width: 350px;
+        min-height: 150px;
+        display: inline-block;
+        border: 5px double #f8b400;
+        background-color: #125b50;
+    }
+    h2 {
+        color: #faf5e4;
+    }
+    h1 {
+        color: #f8b400;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #060930;
+    }
+    .quotes {
+        width: 350px;
+        min-height: 150px;
+        display: inline-block;
+        border: 5px inset #595b83;
+        background-color: #333456;
+    }
+    h2 {
+        color: #f4abc4;
+    }
+    h1 {
+        color: #f4abc4;
+    }
+}
+
+@media screen and (min-width: 800px) and (prefers-color-scheme: dark) {
+    body {
+        background-color: #222222;
+    }
+    .quotes {
+        width: 350px;
+        min-height: 150px;
+        display: inline-block;
+        border: 5px #045757;
+        border-style: dashed solid;
+        background-color: #044343;
+    }
+    h2 {
+        color: #e4e4e4;
+    }
+    h1 {
+        color: #e4e4e4;
+    }
+}
+
+@media print {
+    * {
+        background-color: white;
+        color: black;
+    }
+}
