@@ -1,30 +1,56 @@
-# Book Quotes Page
+# Book Quotes - Responsive Web Page
 
-This page was made to show new programmers how the media query work.
-Due to the students are just starting to program, the page was made with simple properties priori V6
+Welcome to the **Book Quotes** web page repository! This simple yet elegant project serves as an example of how to create a **responsive web page** using only vanilla HTML and CSS. It was designed to demonstrate the concepts and techniques taught during the **CSS Responsive** session.
 
-The quotes where taken from an internet page
+## Overview
 
-## Light Mode
+This project showcases a responsive design that adapts to different screen sizes and user preferences, including color schemes. The page content focuses on Book Quotes, providing an engaging and relatable example for students to learn from.
 
-### Small Screen
+### Features
+
+- **Responsive Design**: Adapts seamlessly to various screen sizes, from mobile devices to large desktops.
+- **Color Scheme Adaptation**: Automatically adjusts to the user's preferred color scheme (light or dark mode).
+- **Vanilla HTML and CSS**: Built without external frameworks to focus on the fundamentals of responsive design.
+
+## Purpose
+
+The purpose of this repository is to provide a practical example for students to understand and implement responsive design techniques, including:
+
+- Media queries for different screen sizes
+- Flexible layouts using CSS properties like `flexbox` and `grid`
+- Leveraging CSS variables for theme-based adjustments
+- Utilizing `@media (prefers-color-scheme)` to align with user preferences
+
+## Technologies
+
+![My Skills](https://skillicons.dev/icons?i=js,html,css)
+
+- JavaScript,
+- HTML
+- CSS
+
+## Preview
+
+### Light Mode
+
+#### Small Screen
 
 ![Light Mode Small Screen](img/Light_mode_smallScreen.png)
 
-### Medium Screen (Width bigger than 800)
+#### Medium Screen (Width bigger than 800)
 
 ![Light Mode Medium Screen](img/Light_mode_mediumScreen.png)
 
-### Full Screen (Width bigger than 1200)
+#### Full Screen (Width bigger than 1200)
 
 ![Light Mode Full Screen](img/Light_mode_fullScreen.png)
 
-## Dark Mode
+### Dark Mode
 
-### Small Screen
+#### Small Screen
 
 ![Dark Mode Small Screen](img/Dark_mode_smallScreen.png)
 
-### Full Screen (width bigger than 800)
+#### Full Screen (width bigger than 800)
 
 ![Dark Mode Full Screen](img/Dark_mode_fullScreen.png)
