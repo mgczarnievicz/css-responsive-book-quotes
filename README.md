@@ -1,6 +1,6 @@
 # Book Quotes - Responsive Web Page
 
-Welcome to the **Book Quotes** web page repository! This simple yet elegant project serves as an example of how to create a **responsive web page** using only vanilla HTML and CSS. It was designed to demonstrate the concepts and techniques taught during the **CSS Responsive** session.
+Welcome to the **Book Quotes** web page repository! This simple yet elegant project serves as an example of how to create a **responsive web page** using only vanilla HTML and CSS. It was designed to demonstrate the concepts and techniques taught during the **CSS Responsive** session, without previous knowledge of flex, grid and css variables
 
 ## Overview
 
@@ -17,8 +17,6 @@ This project showcases a responsive design that adapts to different screen sizes
 The purpose of this repository is to provide a practical example for students to understand and implement responsive design techniques, including:
 
 - Media queries for different screen sizes
-- Flexible layouts using CSS properties like `flexbox` and `grid`
-- Leveraging CSS variables for theme-based adjustments
 - Utilizing `@media (prefers-color-scheme)` to align with user preferences
 
 ## Technologies

@@ -13,21 +13,7 @@ body {
     padding: 10px;
 }
 
-#quotes-container {
-    width: 90%;
-    margin: 0 5%;
-    text-align: center;
-    border-radius: 12px;
-}
-.quotes {
-    width: 90%;
-    border: 3px solid #557c55;
-    border-radius: 12px;
-    margin: 10px 15px;
-    margin-right: 0px;
-    background-color: #db6b97;
-    overflow: hidden;
-}
+
 h1 {
     width: 100%;
     text-align: center;
@@ -36,6 +22,7 @@ h1 {
     font-family: "Monoton", cursive;
     font-size: 42px;
 }
+
 h2,
 p {
     text-align: center;
@@ -50,15 +37,35 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
+
 h2 {
     font-weight: 500;
     font-style: italic;
+}
+
+
+#quotes-container {
+    width: 90%;
+    margin: 0 5%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.quotes {
+    width: 90%;
+    border: 3px solid #557c55;
+    border-radius: 12px;
+    margin: 10px 15px;
+    margin-right: 0px;
+    background-color: #db6b97;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 800px) {
     body {
         background-color: #655d8a;
     }
+
     .quotes {
         width: 350px;
         min-height: 150px;
@@ -66,9 +73,11 @@ h2 {
         border: 5px dotted #d885a3;
         background-color: #7897ab;
     }
+
     h2 {
         color: #fdceb9;
     }
+
     h1 {
         color: #d885a3;
     }
@@ -78,6 +87,7 @@ h2 {
     body {
         background-color: #ff6363;
     }
+
     .quotes {
         width: 350px;
         min-height: 150px;
@@ -85,9 +95,11 @@ h2 {
         border: 5px double #f8b400;
         background-color: #125b50;
     }
+
     h2 {
         color: #faf5e4;
     }
+
     h1 {
         color: #f8b400;
     }
@@ -97,13 +109,16 @@ h2 {
     body {
         background-color: #060930;
     }
+
     .quotes {
         border: 5px inset #595b83;
         background-color: #333456;
     }
+
     h2 {
         color: #f4abc4;
     }
+
     h1 {
         color: #f4abc4;
     }
@@ -113,14 +128,17 @@ h2 {
     body {
         background-color: #222222;
     }
+
     .quotes {
         border: 5px #045757;
         border-style: dashed solid;
         background-color: #044343;
     }
+
     h2 {
         color: #e4e4e4;
     }
+
     h1 {
         color: #e4e4e4;
     }
