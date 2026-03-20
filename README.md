@@ -21,9 +21,8 @@ The purpose of this repository is to provide a practical example for students to
 
 ## Technologies
 
-![My Skills](https://skillicons.dev/icons?i=js,html,css)
+![My Skills](https://skillicons.dev/icons?i=html,css)
 
-- JavaScript,
 - HTML
 - CSS
 
