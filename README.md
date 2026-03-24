@@ -42,6 +42,10 @@ The purpose of this repository is to provide a practical example for students to
 
 ![Light Mode Full Screen](img/Light_mode_fullScreen.png)
 
+#### Video
+
+![Light Mode video](img/book-quotes.gif)
+
 ### Dark Mode
 
 #### Small Screen
